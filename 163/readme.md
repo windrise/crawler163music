@@ -17,7 +17,7 @@ Author：付学明
 ----
 ## 1、分析目标网站`http://music.163.com/`（Chrome）
 先随便点入一个歌单，右键点击查看框架源代码  
-![1.jpg](E:\python\163\1.jpg)   
+![1.jpg](crawler163music/163/picture/1.jpg )   
 然后我们发现歌曲中的链接url是隐藏的，点击进入的是单曲，并且单曲中的播放链接是经过JavaScript渲染处理过的。  
 ![2.png](E:\python\163\2.png)  
 ![3.png](E:\python\163\2.png)  
