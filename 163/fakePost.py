@@ -55,7 +55,7 @@ def AES_encrypt(text, key,iv):
     return ciphertext
 
 def get_json(song_id):
-    params = get_params(437752374);
+    params = get_params(song_id);
     encSecKey = get_encSecKey();
     data = {
          "params": params,
